@@ -1,227 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Mutahhar Bhutta | Portfolio</title>
-  <meta name="description" content="Personal Portfolio of Mutahhar Bhutta" />
-  <meta name="keywords" content="Mutahhar Bhutta, Portfolio, Data Science, PUCIT" />
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
-
-  <!-- AOS CSS -->
-  <link rel="stylesheet" href="assets/vendor/aos/aos.css" />
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="assets/css/main.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mutahhar Ahmad - BS Data Science Student | PUAN Member | Turning Data into Visual Impact. Explore my portfolio, projects, and skills in data visualization and analytics.">
+    <meta name="keywords" content="Mutahhar Ahmad, Data Science, Data Visualization, Power BI, Python, Web Development, PUCIT, Portfolio">
+    <meta name="author" content="Mutahhar Ahmad">
+    <meta property="og:title" content="Mutahhar Ahmad - Data Science Portfolio">
+    <meta property="og:description" content="BS Data Science Student passionate about turning data into meaningful insights">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <title>Mutahhar Ahmad - Data Science Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="profile.png" type="image/png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
 
-<body>
-  <div class="update-banner">
-    <marquee behavior="scroll" direction="left">📅 Last updated August 2025</marquee>
-  </div>
-
-
-  
-  <!-- Header -->
-  <header class="bg-light py-3 shadow-sm fixed-top">
-    <div class="container d-flex justify-content-between align-items-center">
-      <h1 class="h4 mb-0">Mutahhar Bhutta</h1>
-      <nav>
-        <ul class="nav">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <button id="theme-toggle" class="btn btn-sm btn-outline-dark">🌙</button>
-    </div>
-  </header>
-
-  
-
-  <!-- Home Section -->
-  <section id="home" class="vh-100 d-flex align-items-center text-center bg-light" data-aos="fade-in">
-    <div class="container">
-      <img src="assets/images/profile.png" alt="Profile" class="rounded-circle mb-3" width="150" />
-      <h1>Hello, I'm <span class="text-primary">Mutahhar Bhutta</span></h1>
-    <!-- TYPING EFFECT -->
-      <img src="https://readme-typing-svg.demolab.com/?lines=Data+Scientist+in+the+Making;Visualizing+Insights+from+Data;Always+Learning+New+Things;&center=true&width=500&height=45&color=00BFFF&pause=1000" alt="Typing SVG">
-      <p class="lead typed-text"></p>
-
-    </div>
-
-
-
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="py-5 bg-white" data-aos="fade-up">
-    <div class="container">
-      <h2 class="text-center mb-4">About Me</h2>
-      <div class="row align-items-center">
-        <div class="col-md-4 text-center">
-          <img src="assets/images/profile.png" alt="Mutahhar" class="img-fluid rounded" />
-        </div>
-        <div class="col-md-8">
-          <p>I am a BS Data Science student at PUCIT – FCIT. I enjoy designing clean, impactful PowerPoint presentations and learning modern technologies.</p>
-          <ul class="list-unstyled">
-            <li><strong>Age:</strong> 18</li>
-            <li><strong>City:</strong> Lahore, Pakistan</li>
-            <li><strong>Email:</strong> mutahharbhutta3000@gmail.com</li>
-            <li><strong>Degree:</strong> BS (In Progress)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="py-5 bg-light" data-aos="fade-up">
-    <div class="container">
-      <h2 class="text-center mb-4">Skills</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <p>HTML</p>
-          <div class="progress mb-3"><div class="progress-bar bg-primary" style="width: 90%">90%</div></div>
-          <p>CSS</p>
-          <div class="progress mb-3"><div class="progress-bar bg-success" style="width: 80%">80%</div></div>
-          <p>JavaScript</p>
-          <div class="progress mb-3"><div class="progress-bar bg-warning" style="width: 50%">50%</div></div>
-        </div>
-        <div class="col-md-6">
-          <p>Python</p>
-          <div class="progress mb-3"><div class="progress-bar bg-danger" style="width: 60%">60%</div></div>
-          <p>MS Office</p>
-          <div class="progress mb-3"><div class="progress-bar bg-info" style="width: 90%">90%</div></div>
-          <p>Photoshop</p>
-          <div class="progress mb-3"><div class="progress-bar bg-secondary" style="width: 55%">55%</div></div>
-        </div>
-      </div>
-    </div>
-    
-  </section>
-
-  <!-- Certificates Section -->
-  <section id="certificates" class="py-5 bg-white" data-aos="fade-up">
-    <div class="container">
-      <h2 class="text-center mb-4">Certificates</h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/images/cert1.jpg" class="card-img-top" alt="Certificate 1">
-            <div class="card-body">
-              <h5 class="card-title">Certificate Title 1</h5>
-              <a href="#" class="btn btn-outline-primary btn-sm">View Certificate</a>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Mutahhhar Ahmad</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-          </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/images/cert2.jpg" class="card-img-top" alt="Certificate 2">
-            <div class="card-body">
-              <h5 class="card-title">Certificate Title 2</h5>
-              <a href="#" class="btn btn-outline-primary btn-sm">View Certificate</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge"></div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Mutahhar Ahmad</span>
+                </h1>
+                <p class="hero-subtitle">BS Data Science Student | PUAN Member (U.S. Access Alumnus)</p>
+                <p class="hero-description">Turning Data into Visual Impact</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="mailto:mutahharbhutta3000@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/mutahhar-ahmad-28943a36a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/mutahharbhutta" target="_blank" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://github.com/mutahharbhutta" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="py-5 bg-light" data-aos="fade-up">
-    <div class="container">
-      <h2 class="text-center mb-4">Projects</h2>
-      <div class="row g-4">
-        <div class="col-md-6">
-          <div class="card">
-            <img src="assets/images/project1.jpg" class="card-img-top" alt="Project 1">
-            <div class="card-body">
-              <h5 class="card-title">Project Title 1</h5>
-              <p class="card-text">Brief description of the project.</p>
-              <a href="#" class="btn btn-primary btn-sm">GitHub Link</a>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Data Analytics</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-code"></i>
+                    <span>Development</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-chart-bar"></i>
+                    <span>Visualization</span>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-md-6">
-          <div class="card">
-            <img src="assets/images/project2.jpg" class="card-img-top" alt="Project 2">
-            <div class="card-body">
-              <h5 class="card-title">Project Title 2</h5>
-              <p class="card-text">Another short description.</p>
-              <a href="#" class="btn btn-primary btn-sm">GitHub Link</a>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label"></span>
+                <h2 class="section-title">About Me</h2>
             </div>
-          </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Passionate About Data & Innovation</h3>
+                    <p>I'm a BS Data Science student at Punjab University College of Information Technology (PUCIT - FCIT), dedicated to transforming raw data into meaningful insights that drive real-world impact.</p>
+                    <p>As a PUAN Member and U.S. Access Program Alumnus, I've developed strong leadership and communication skills while building a foundation in data visualization and analytics. I believe in the power of data to solve complex problems and create positive change.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>BS Data Science - PUCIT (FCIT)</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Achievement</h4>
+                                <p>U.S. Access Program Alumnus</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-bullseye"></i>
+                            <div>
+                                <h4>Goal</h4>
+                                <p>Skilled Data Scientist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <blockquote class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Data is the new oil. It's valuable, but if unrefined it cannot really be used.</p>
+                        <cite>— Clive Humby</cite>
+                    </blockquote>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>5+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-code"></i>
+                        <h3>5+</h3>
+                        <p>Technologies</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>1</h3>
+                        <p>Major Achievement</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>100%</h3>
+                        <p>Dedication</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="py-5 bg-white" data-aos="fade-up">
-    <div class="container">
-      <h2 class="text-center mb-4">Contact Me</h2>
-      <form id="contact-form" class="php-email-form bg-light p-4 rounded shadow">
-  <div class="form-group mb-3">
-    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-  </div>
-  <div class="form-group mb-3">
-    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
-  </div>
-  <div class="form-group mb-3">
-    <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-  </div>
-  <div class="form-group mb-3">
-    <textarea name="message" rows="5" class="form-control" placeholder="Your Message" required></textarea>
-  </div>
-  <div class="text-center">
-    <button type="submit" class="btn btn-primary">Send Message</button>
-  </div>
-</form>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What I'm good at</span>
+                <h2 class="section-title">My Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Data Science & Visualization</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Data Analytics</span>
+                        <span class="skill-tag">Microsoft Excel</span>
+                        <span class="skill-tag">Data Visualization</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Design Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">PowerPoint</span>
+                        <span class="skill-tag">MS Word</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label"></span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>GPA & CGPA Calculator</h3>
+                        <p>A lightweight, responsive, and interactive web application for students to calculate Semester GPA and Cumulative GPA (CGPA) quickly and accurately with a fun, personalized experience.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://mutahharbhutta.github.io/pucit-cgpa-calculator/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/mutahharbhutta/pucit-cgpa-calculator" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>WorkBurst</h3>
+                        <p>A comprehensive task management system designed for students to track assignments, quizzes, and lab work with advanced features including weekly grouping, multiple themes, timetable integration, and notification support.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://mutahharbhutta.github.io/WorkBurst" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/mutahharbhutta/WorkBurst" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Data Visualization Dashboard</h3>
+                        <p>Created interactive dashboards for business analytics using Power BI and Excel, enabling data-driven decision making through comprehensive visual insights.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Excel</span>
+                            <span>Analytics</span>
+                        </div>
+                        <a href="https://github.com/mutahharbhutta/Sales-Performance-Dashboard-Using-Excel" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Link
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-ship"></i>
+                    </div>
+                    <div class="project-content">
+                        
+                        <h3>Titanic Survival Analysis - EDA</h3>
+                        <p>Performed in-depth exploratory data analysis on the Titanic dataset. Key insights include survival rates based on gender, class, and age.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                            <span>Statistical Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mutahharbhutta/EDA_of_Titanic_Dataset" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-      <p>&copy; 2025 Mutahhar Bhutta. All Rights Reserved.</p>
-    </div>
-  </footer>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label"></span>
+                <h2 class="section-title">Experience & Achievements</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2024</span>
+                        <h3>PUAN Member - U.S. Access Program Alumnus</h3>
+                        <p>Completed the U.S. Access Program, developing leadership and communication skills while engaging in community service initiatives.</p>
+                        <div class="timeline-tags">
+                            <span>Leadership</span>
+                            <span>Communication</span>
+                            <span>Community Service</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3>Data Visualization Projects</h3>
+                        <p>Created interactive dashboards and analytics solutions for business intelligence using Power BI and Excel.</p>
+                        <div class="timeline-tags">
+                            <span>Power BI</span>
+                            <span>Excel</span>
+                            <span>Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3>Web Development Projects</h3>
+                        <p>Built responsive websites and web applications, including task management systems and calculators for student use.</p>
+                        <div class="timeline-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script>
-  document.getElementById("contact-form").addEventListener("submit", function(e) {
-    e.preventDefault();
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label"></span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Collaborate!</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <a href="mailto:mutahharbhutta3000@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>mutahharbhutta3000@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/mutahhar-ahmad-28943a36a" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>Connect with me</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/mutahharbhutta" target="_blank" class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>Check out my code</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Message sent successfully! I'll get back to you soon.</p>
+                    </div>
+                    <div class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="handleSubmit()">
+                            Send Message
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    const form = e.target;
-    const data = new FormData(form);
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Mutahhar Ahmad</h3>
+                    <p>Turning Data into Visual Impact</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="mailto:mutahharbhutta3000@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://linkedin.com/in/mutahhar-ahmad-28943a36a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/mutahharbhutta" target="_blank" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://github.com/mutahharbhutta" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mutahhar Ahmad. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-    fetch("https://script.google.com/macros/s/AKfycbyRBAY7mxBNpvA6NloovjeY9u757RoeBdQjlH_66YbpauWT3mKzj9WBwlQqmQwRBS8NGQ/exec", {
-      method: "POST",
-      body: data,
-    })
-    .then(response => response.text())
-    .then(msg => {
-      alert("✅ Message sent successfully!");
-      form.reset();
-    })
-    .catch(error => {
-      console.error("❌ Error!", error.message);
-      alert("There was an error sending the message.");
-    });
-  });
-</script>
-
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
