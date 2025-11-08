@@ -1300,3 +1300,28 @@ section {
         font-size: 2rem;
     }
 }
+
+/* ================================
+   Fix Theme Button on Mobile
+   ================================ */
+
+@media (max-width: 768px) {
+    .theme-toggle {
+        top: 15px;
+        right: 70px; /* Move left to avoid hamburger */
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .theme-toggle {
+        top: 12px;
+        right: 65px; /* Give more space */
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+}

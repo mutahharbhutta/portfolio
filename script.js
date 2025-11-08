@@ -321,7 +321,7 @@ const statsObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             const statCards = entry.target.querySelectorAll('.stat-card h3');
-            const targets = [10, 5, 1, 100];
+            const targets = [5, 5, 1, 100];
             
             statCards.forEach((card, index) => {
                 animateCounter(card, targets[index]);
@@ -485,3 +485,4 @@ document.addEventListener('DOMContentLoaded', () => {
     
     console.log('Portfolio loaded successfully! ✨');
 });
+
